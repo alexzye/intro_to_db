@@ -1,0 +1,32 @@
+###############################################
+CPE 365 Lab 1: Why Databases
+Team Members: Alex Ye, Nick Russo, Jon Kuzmich
+
+###############################################
+
+Instructions:
+
+Our implentation language was Python 2. Our main
+program can be run with the following command:
+
+        "python schoolsearch.py"
+
+You will be prompted with usage instructions on
+run.
+
+For analytics functionality, use the 'An[alytics]' command. 
+For example, when prompted, the command:
+
+        "An G"
+
+provides analytic information based on grade level of the student.
+
+Another example, the command:
+
+        "An T"
+
+provides analytics for the teacher teaching the student.
+
+Our write-up is found in CPE365Lab1_2WriteUp.pdf and
+a sample output from a run can be found in
+sample_output.txt.

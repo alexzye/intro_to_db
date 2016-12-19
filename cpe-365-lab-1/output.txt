@@ -1,0 +1,10 @@
+ Usage: 
+            S[tudent] <lastname> [B[us]]
+            T[eacher] <lastname>
+            B[us] <number>
+            G[rade] <number> [[H[igh]]|[L[ow]]]
+            A[verage] <number>
+            C[lass] <number> [T[eacher]
+            An[alytics] [G[rage]]
+            Q[uit]
+Enter a search: 

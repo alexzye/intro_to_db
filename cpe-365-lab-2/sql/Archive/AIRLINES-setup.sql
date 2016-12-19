@@ -1,0 +1,3 @@
+CREATE TABLE Airlines(Id INT NOT NULL PRIMARY KEY, Airline VARCHAR(20) NOT NULL, Abbrev VARCHAR(15), Country VARCHAR(3));
+CREATE TABLE Airports(City VARCHAR(15), Code VARCHAR(4), Name VARCHAR(20), Country VARCHAR(15), Cabbrev VARCHAR(3));
+CREATE TABLE Flights(Airline INT NOT NULL, FlightNo INT, Source VARCHAR(4), Dest VARCHAR(4), FOREIGN KEY(Source, Dest) REFERENCES Airports(Code), UNIQUE(FlightNo));

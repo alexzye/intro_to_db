@@ -1,0 +1,66 @@
+ Usage: 
+            S[tudent]: <lastname> [B[us]]
+            T[eacher]: <lastname>
+            B[us]: <number>
+            G[rade]: <number> [[H[igh]]|[L[ow]]]
+            A[verage]: <number>
+            Q[uit]
+Enter a search: S cookus
+COOKUS, XUAN, 3, 107, FAFARD, ROCIO
+The search took: 0.000055 s.
+Enter a search: S cookus B
+COOKUS, XUAN, 52
+This search took 0.000034 s.
+Enter a search: T fafard
+COOKUS, XUAN
+ELHADDAD, SHANTE
+SWEDLUND, SHARRI
+CIGANEK, MANIE
+COVINGTON, TOMAS
+EARLY, TORY
+LINHART, LELA
+This search took 0.000083 s.
+Enter a search: B 52
+XUAN, COOKUS, 3, 107
+SHANTE, ELHADDAD, 3, 107
+DEVIN, IMMERMAN, 4, 105
+STAN, OBREIN, 6, 111
+DIMPLE, CORONADO, 6, 102
+DIEDRA, SARAO, 2, 108
+TORY, EARLY, 3, 107
+ROSETTA, KEMERER, 6, 102
+The search took: 0.000062 s.
+Enter a search: G 4 H
+CORKER, CARTER, 3.12, HANTZ, JED
+This search took 0.000022 s.
+Enter a search: G 4 L
+CIGANEK, MANIE, 2.79, FAFARD, ROCIO
+This search took 0.000022 s.
+Enter a search: G 6
+SCHOENECKER, PHUONG
+RACANELLO, NOEL
+STERBACK, PETER
+FINCHMAN, MATHILDA
+ZAPPAVIGNA, ELLIOTT
+OBREIN, STAN
+CORONADO, DIMPLE
+SAENPHIMMACHA, NUMBERS
+BOYTER, WAN
+BREVO, JANNETTE
+CLECKLER, FLOY
+KRAKE, VALENTIN
+KEMERER, ROSETTA
+BEAN, INGER
+DEMARTINI, DEWAYNE
+CREMEANS, RANDOLPH
+FEYEREISEN, WILFREDO
+WERST, LEON
+LAMKIN, TAMA
+KREESE, CARRIE
+FRIEDSTROM, REED
+This search took 0.000031 s.
+Enter a search: A 3
+3, 3.04888888889
+This search took 0.000056 s.
+Enter a search: Q
+School Search has quit. Later alligator.
